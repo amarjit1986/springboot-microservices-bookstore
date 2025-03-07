@@ -1,0 +1,10 @@
+name: Catalog Service
+
+on:
+  push:
+    paths:
+      - catalog-service/**
+    branches:
+      - 'main'
+  pull_request:
+    branches: [main]
